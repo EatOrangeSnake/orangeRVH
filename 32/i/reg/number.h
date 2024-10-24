@@ -1,5 +1,5 @@
-#ifndef _RV_REG_NUMBER_H
-#define _RV_REG_NUMBER_H
+#ifndef _RV32I_REG_NUMBER_H
+#define _RV32I_REG_NUMBER_H
 
 #define RV_REG_NUM_X0 0
 #define RV_REG_NUM_ZERO 0

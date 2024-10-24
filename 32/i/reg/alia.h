@@ -1,5 +1,5 @@
-#ifndef _RV_REG_ALIA_H
-#define _RV_REG_ALIA_H
+#ifndef _RV32I_REG_ALIA_H
+#define _RV32I_REG_ALIA_H
 
 typedef char* RV_REG_ALIA;
 typedef RV_REG_ALIA RV_REG_ALIA_LIST[];
@@ -72,7 +72,7 @@ typedef RV_REG_ALIA_LIST* RV_REG_ALIA_TABLE[];
     RV_REG_ALIA_X30, \
     RV_REG_ALIA_X31
 
-#define RV_REG_ALIA_TABLE_STRD (RV_REG_ALIA_TABLE){RV_REG_ALIA_TABLE_CORE}
+#define RV_REG_ALIA_TABLE_STD (RV_REG_ALIA_TABLE){RV_REG_ALIA_TABLE_CORE}
 
 #define RV_REG_ALIA_GET(table, num) (*(table)[num])
 

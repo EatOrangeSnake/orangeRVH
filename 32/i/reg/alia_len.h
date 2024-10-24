@@ -1,5 +1,5 @@
-#ifndef _RV_REG_ALIA_LEN_H
-#define _RV_REG_ALIA_LEN_H
+#ifndef _RV32I_REG_ALIA_LEN_H
+#define _RV32I_REG_ALIA_LEN_H
 
 #include <stddef.h>
 #include "alia.h"
@@ -38,6 +38,6 @@
     (size_t)sizeof(RV_REG_ALIA_X30) / sizeof(RV_REG_ALIA), \
     (size_t)sizeof(RV_REG_ALIA_X31) / sizeof(RV_REG_ALIA)
 
-#define RV_REG_ALIA_LEN_STRD (size_t[]){RV_REG_ALIA_LEN_CORE}
+#define RV_REG_ALIA_LEN_STD (size_t[]){RV_REG_ALIA_LEN_CORE}
 
 #endif /* _RV_REG_ALIA_LEN_H */
